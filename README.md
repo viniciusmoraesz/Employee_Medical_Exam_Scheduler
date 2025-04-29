@@ -110,7 +110,7 @@ Para rodar o projeto, siga os seguintes passos:
         clinic_id=uuid4(),
         opening_hour=time(9, 0),
         closing_hour=time(17, 0),
-        exam_types=[ExamTypeEnum.BLOOD_TEST]
+        exam_types=[ExamTypeEnum.GENERAL_CHECKUP]
     )
     list_of_clinics.append(clinic3)
     
